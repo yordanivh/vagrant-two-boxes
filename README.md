@@ -160,9 +160,9 @@ above with their current state. For more information about a specific
 VM, run `vagrant status NAME`.
 ```
 
-* The two servers have been provision by the `provision.sh` script to have a web server running on port 1234 with body saying that it is web server 1 or web server 2.
+* The two servers have been provision by the `provision.sh` script to have a web server running on port 80.
 To test this go to your browser and put in http://localhost:65001/ and then http://localhost:65002/.
-You will see the web servers working
+You will see the web servers working.
 
 * When you are done with this destroy the created environment to save resources
 
